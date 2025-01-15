@@ -1,12 +1,7 @@
-# SuperEasy 100% Local RAG with Ollama + Email RAG
+# Local RAG with Ollama
 
-### YouTube Tutorials
-- https://www.youtube.com/watch?v=Oe-7dGDyzPM
-- https://www.youtube.com/watch?v=vFGng_3hDRk
-### Latest YouTube Updated Features
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0X7raD1kISQ/0.jpg)](https://www.youtube.com/watch?v=0X7raD1kISQ)
 ### Setup
-1. git clone https://github.com/AllAboutAI-YT/easy-local-rag.git
+1. git clone https://github.com/knutm92/local-rag
 2. cd dir
 3. pip install -r requirements.txt
 4. Install Ollama (https://ollama.com/download)
@@ -17,7 +12,7 @@
 9. run localrag_no_rewrite.py (no query re-write)
 
 ### Email RAG Setup
-1. git clone https://github.com/AllAboutAI-YT/easy-local-rag.git
+1. git clone https://github.com/knutm92/local-rag
 2. cd dir
 3. pip install -r requirements.txt
 4. Install Ollama (https://ollama.com/download)
@@ -36,9 +31,6 @@
 - Pick your model from the CLI (1.1)
   - python localrag.py --model mistral (llama3 is default) 
 - Talk in a true loop with conversation history (1.1)
-   
-### My YouTube Channel
-https://www.youtube.com/c/AllAboutAI
 
 ### What is RAG?
 RAG is a way to enhance the capabilities of LLMs by combining their powerful language understanding with targeted retrieval of relevant information from external sources often with using embeddings in vector databases, leading to more accurate, trustworthy, and versatile AI-powered applications
